@@ -30,7 +30,7 @@ def main():
         imagen, evaluacion = modelo_holistic(imagen, marcasCuerpo)
         dibujo_marcas(imagen, evaluacion)
         test = almacenar_arreglos(evaluacion)
-        print(test[0])
+        print(len(test))
 
         cv2.imshow('Imagen capturada', imagen)
         cv2.waitKey(1)
