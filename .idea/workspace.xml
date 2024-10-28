@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92c2491-f32a-4ec4-adcd-fe727588e8bf" name="Changes" comment="Definición de funciones">
+    <list default="true" id="c92c2491-f32a-4ec4-adcd-fe727588e8bf" name="Changes" comment="recoleccion de datos agregado, refactorizacion en reconocimiento.py">
+      <change afterPath="$PROJECT_DIR$/etiquetado_datos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolisticModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/HolisticModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recoleccion_datos.py" beforeDir="false" afterPath="$PROJECT_DIR$/recoleccion_datos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,18 @@
     &quot;accountId&quot;: &quot;e68b5d10-8d3e-43b7-9f2e-ad4fbca22ab2&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/reconocimiento.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="11" />
+      <option value="12" />
+      <option value="13" />
+      <option value="14" />
+      <option value="15" />
+      <option value="16" />
+    </hideBySeverity>
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
@@ -47,14 +60,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.HolisticModel.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.HolisticModel.executor": "Run",
+    "Python.RecoleccionDatos.executor": "Run",
+    "Python.etiquetado_datos.executor": "Run",
+    "Python.recoleccion_datos.executor": "Run",
+    "Python.reconocimiento.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JDan\PycharmProjects\HolisticModel" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,11 +101,38 @@
       <option name="project" value="LOCAL" />
       <updated>1729960792831</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Funciones establecidas. -Almacenar datos en arreglos y su unificación">
+      <option name="closed" value="true" />
+      <created>1729983343521</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729983343521</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ordenamiento y comentarios del codigo">
+      <option name="closed" value="true" />
+      <created>1729987067933</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729987067933</updated>
+    </task>
+    <task id="LOCAL-00004" summary="recoleccion de datos agregado, refactorizacion en reconocimiento.py">
+      <option name="closed" value="true" />
+      <created>1729996508965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729996508966</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Definición de funciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Definición de funciones" />
+    <MESSAGE value="Funciones establecidas. -Almacenar datos en arreglos y su unificación" />
+    <MESSAGE value="Ordenamiento y comentarios del codigo" />
+    <MESSAGE value="recoleccion de datos agregado, refactorizacion en reconocimiento.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="recoleccion de datos agregado, refactorizacion en reconocimiento.py" />
   </component>
 </project>
