@@ -1,13 +1,17 @@
 import  os
 import numpy as np
+from sklearn.model_selection import train_test_split
+from keras.src.utils import to_categorical
+
 #Obtener cantidad total de gestos a entrenar. Almacenamiento en un arreglo
 ruta_datos_entrenamiento = os.path.join('./recoleccion_datos')
-carpetas_entrenamiento = [nombre for nombre in os.listdir(ruta_datos_entrenamiento)
-                          if os.path.isdir(os.path.join(ruta_datos_entrenamiento, nombre))]
+carpetas_gestos = [nombre for nombre in os.listdir(ruta_datos_entrenamiento)
+                   if os.path.isdir(os.path.join(ruta_datos_entrenamiento, nombre))]
+gestos_array = np.array(carpetas_gestos)
+
 
 #Se crea el diccionario de etiquetas
-diccionario_etiquetas = {label:num for num, label in enumerate(carpetas_entrenamiento)}
-
+diccionario_etiquetas = {label:num for num, label in enumerate(carpetas_gestos)}
 secuencias, etiquetas = [], []
 
 for gesto, label in diccionario_etiquetas.items():
@@ -21,3 +25,7 @@ for gesto, label in diccionario_etiquetas.items():
         ]
         secuencias.append(window)
         etiquetas.append(label)
+
+X = np.array(secuencias)
+y = to_categorical(etiquetas).astype(int)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.05)
