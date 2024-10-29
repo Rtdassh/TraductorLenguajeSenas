@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92c2491-f32a-4ec4-adcd-fe727588e8bf" name="Changes" comment="recoleccion de datos agregado, refactorizacion en reconocimiento.py">
-      <change afterPath="$PROJECT_DIR$/etiquetado_datos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+    <list default="true" id="c92c2491-f32a-4ec4-adcd-fe727588e8bf" name="Changes" comment="modulo etiquetado_datos.py agregado">
+      <change afterPath="$PROJECT_DIR$/entrenamiento_modelo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etiquetado_datos.py" beforeDir="false" afterPath="$PROJECT_DIR$/etiquetado_datos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recoleccion_datos.py" beforeDir="false" afterPath="$PROJECT_DIR$/recoleccion_datos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reconocimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/reconocimiento.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,22 +61,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.HolisticModel.executor": "Run",
-    "Python.RecoleccionDatos.executor": "Run",
-    "Python.etiquetado_datos.executor": "Run",
-    "Python.recoleccion_datos.executor": "Run",
-    "Python.reconocimiento.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.HolisticModel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RecoleccionDatos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.entrenamiento_modelo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.etiquetado_datos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.recoleccion_datos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reconocimiento.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JDan\PycharmProjects\HolisticModel\Logs" />
       <recent name="C:\Users\JDan\PycharmProjects\HolisticModel" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="etiquetado_datos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HolisticModel" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/etiquetado_datos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reconocimiento" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HolisticModel" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reconocimiento.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.etiquetado_datos" />
+        <item itemvalue="Python.reconocimiento" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -125,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729996508966</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="se añadió tensorflow y scikit-learn. Modulo etiquetado_datos.py añadido">
+      <option name="closed" value="true" />
+      <created>1730077028238</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730077028238</updated>
+    </task>
+    <task id="LOCAL-00006" summary="modulo etiquetado_datos.py agregado">
+      <option name="closed" value="true" />
+      <created>1730091929616</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730091929616</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,6 +205,8 @@
     <MESSAGE value="Funciones establecidas. -Almacenar datos en arreglos y su unificación" />
     <MESSAGE value="Ordenamiento y comentarios del codigo" />
     <MESSAGE value="recoleccion de datos agregado, refactorizacion en reconocimiento.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="recoleccion de datos agregado, refactorizacion en reconocimiento.py" />
+    <MESSAGE value="se añadió tensorflow y scikit-learn. Modulo etiquetado_datos.py añadido" />
+    <MESSAGE value="modulo etiquetado_datos.py agregado" />
+    <option name="LAST_COMMIT_MESSAGE" value="modulo etiquetado_datos.py agregado" />
   </component>
 </project>

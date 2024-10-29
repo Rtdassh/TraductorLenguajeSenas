@@ -4,10 +4,9 @@ import cv2
 import reconocimiento
 
 DIRECTORIO_DATOS = os.path.join('./recoleccion_datos')
-
 def main():
     creacion_directorio(DIRECTORIO_DATOS)
-    ingresar_gesto('no',50,30)
+    ingresar_gesto('b',50,60)
 
 def creacion_directorio(nombre_directorio):
     if not os.path.exists(nombre_directorio):
@@ -26,7 +25,7 @@ def ingresar_gesto(nombre_signo, frames_muestra, cantidad_muestra):
         cv2.putText(imagen, 'Para comenzar presiona la letra s', (100, 50), cv2.FONT_ITALIC, 1, (150, 255, 44), 3,
                     cv2.LINE_AA)
         cv2.imshow('Recoleccion de datos', imagen)
-        if cv2.waitKey(25) == ord('s'):
+        if cv2.waitKey(15) == ord('s'):
             cv2.destroyAllWindows()
             break
 
@@ -42,13 +41,15 @@ def ingresar_gesto(nombre_signo, frames_muestra, cantidad_muestra):
             reconocimiento.dibujo_marcas(frame, evaluacion)
             cv2.putText(frame, f'Recolectando datos para {nombre_signo} - Set {contador}, Frame {iteracion_frame + 1}',(15, 12), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1, cv2.LINE_AA)
 
-            marcas = reconocimiento.almacenar_arreglos(evaluacion)
+            #Ajustar el valor si se desean todos los parametros en almacenar arreglos
+            marcas = reconocimiento.almacenar_arreglos(evaluacion, True, True, True, True)
             directorio_numpy = os.path.join(carpeta_path, str(iteracion_frame))
             np.save(directorio_numpy, marcas)
+
             if iteracion_frame+1== frames_muestra:
                 cv2.putText(frame, 'Set guardado, comenzara el siguiente', (100, 200), cv2.FONT_ITALIC, 0.7,(150, 255, 44),2, cv2.LINE_AA)
             cv2.imshow('frame', frame)
-            cv2.waitKey(25)
+            cv2.waitKey(20)
 
         contador += 1
         cv2.waitKey(1000)
