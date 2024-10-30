@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92c2491-f32a-4ec4-adcd-fe727588e8bf" name="Changes" comment="Clase StopAtAccuracy agregada. requirements.txt añadido">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camara.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/camara.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camara.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/JS/camara.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Fondo camara.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/Fondo camara.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Fondo principal.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/Fondo principal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo_no_background-removebg-preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/logo_no_background-removebg-preview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/opcion 2 demas.webp" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/opcion 2 demas.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/play-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/play-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manual.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/manual.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proposito.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/proposito.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-camara.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/style-camara.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-manual.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/style-manual.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-proposito.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/style-proposito.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="c92c2491-f32a-4ec4-adcd-fe727588e8bf" name="Changes" comment="Estructura web añadida" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -236,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730259359869</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Estructura web añadida">
+      <option name="closed" value="true" />
+      <created>1730261263597</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730261263597</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +252,7 @@
     <MESSAGE value="entrenamiento_modelo.py añadido. Faltan pulir detalles en este modelo. Cambios en la estructura del resto de archivos" />
     <MESSAGE value="peq" />
     <MESSAGE value="Clase StopAtAccuracy agregada. requirements.txt añadido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase StopAtAccuracy agregada. requirements.txt añadido" />
+    <MESSAGE value="Estructura web añadida" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estructura web añadida" />
   </component>
 </project>
