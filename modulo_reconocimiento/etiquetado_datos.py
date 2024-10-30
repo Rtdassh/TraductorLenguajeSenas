@@ -4,7 +4,9 @@ from sklearn.model_selection import train_test_split
 from keras.src.utils import to_categorical
 
 #Obtener cantidad total de gestos a entrenar. Almacenamiento en un arreglo
-ruta_datos_entrenamiento = os.path.join('recoleccion_datos')
+if not os.path.exists(os.path.join('./recoleccion_datos')):
+    os.makedirs(os.path.join('./recoleccion_datos'))
+ruta_datos_entrenamiento = os.path.join('./recoleccion_datos')
 carpetas_gestos = [nombre for nombre in os.listdir(ruta_datos_entrenamiento)
                    if os.path.isdir(os.path.join(ruta_datos_entrenamiento, nombre))]
 gestos_array = np.array(carpetas_gestos)

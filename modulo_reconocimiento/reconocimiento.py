@@ -1,7 +1,7 @@
 #Librerias
 import cv2
 import mediapipe as mp
-from modulo_reconocimiento import etiquetado_datos
+import etiquetado_datos
 import numpy as np
 import tensorflow as tf
 

@@ -4,7 +4,297 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92c2491-f32a-4ec4-adcd-fe727588e8bf" name="Changes" comment="Estructura web añadida" />
+    <list default="true" id="c92c2491-f32a-4ec4-adcd-fe727588e8bf" name="Changes" comment="Refactorizacion de 'web' a 'docs'">
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/0/6.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/1/24.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/1/31.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/10/25.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/10/32.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/11/14.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/11/21.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/12/10.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/12/13.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/12/20.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/15/47.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/16/43.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/17/28.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/18/0.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/18/24.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/18/31.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/19/20.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/2/0.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/2/20.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/20/28.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/21/17.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/21/6.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/22/20.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/23/0.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/25/47.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/26/39.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/26/46.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/27/28.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/27/35.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/27/42.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/28/27.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/29/23.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/29/7.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/3/12.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/3/8.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/30/28.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/30/35.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/30/42.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/31/2.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/31/24.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/31/27.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/31/31.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/31/5.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/32/16.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/32/23.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/34/7.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/36/1.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/36/46.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/37/38.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/37/42.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/37/45.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/38/27.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/38/34.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/38/41.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/39/19.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/39/26.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/39/3.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/39/6.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/40/42.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/41/1.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/41/27.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/41/34.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/41/41.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/42/23.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/42/30.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/42/9.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/43/15.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/43/22.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/44/11.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/46/49.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/47/8.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/48/41.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/49/2.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/49/33.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/49/40.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/50/38.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/50/45.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/51/41.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/52/8.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/53/22.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/54/14.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/54/21.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/55/10.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/57/48.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/59/29.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/6/39.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/6/46.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/8/27.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/8/7.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/9/23.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/ansioso/9/30.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/1/4.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/1/47.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/1/7.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/10/38.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/10/45.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/11/37.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/12/2.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/12/26.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/12/33.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/12/5.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/13/18.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/15/10.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/15/7.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/17/48.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/18/44.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/18/47.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/19/29.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/19/36.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/2/43.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/20/48.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/20/7.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/21/37.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/22/29.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/22/33.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/22/40.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/23/18.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/23/25.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/23/32.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/23/9.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/24/17.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/25/13.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/28/47.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/28/8.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/29/39.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/29/43.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/3/28.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/3/35.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/3/42.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/30/3.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/32/43.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/33/28.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/33/32.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/33/8.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/34/17.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/34/24.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/34/31.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/35/13.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/35/16.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/35/20.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/36/12.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/38/4.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/39/46.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/4/17.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/4/24.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/4/31.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/4/9.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/40/2.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/41/47.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/42/39.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/43/4.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/45/23.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/45/30.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/46/12.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/47/11.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/48/0.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/48/3.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/49/49.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/5/16.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/5/20.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/5/23.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/51/6.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/51/9.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/52/39.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/52/46.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/53/45.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/54/27.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/54/34.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/55/19.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/55/26.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/56/15.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/56/5.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/59/49.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/59/7.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/6/12.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/6/3.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/9/46.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/feliz/9/5.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/0/48.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/10/16.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/10/23.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/10/8.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/11/12.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/15/38.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/15/42.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/15/45.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/15/7.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/16/27.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/16/34.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/16/41.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/17/1.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/17/19.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/17/23.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/17/26.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/17/30.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/17/33.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/18/15.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/18/22.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/19/14.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/2/36.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/2/8.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/20/23.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/20/30.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/21/15.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/22/11.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/24/49.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/25/3.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/27/33.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/27/40.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/28/18.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/28/22.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/28/8.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/29/14.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/29/21.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/3/32.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/30/19.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/30/26.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/31/22.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/33/10.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/33/5.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/34/49.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/35/48.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/36/37.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/36/44.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/37/29.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/37/36.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/38/4.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/4/24.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/40/29.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/40/33.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/40/40.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/41/18.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/41/25.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/43/1.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/43/4.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/46/47.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/46/6.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/47/43.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/48/0.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/48/28.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/48/35.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/49/17.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/49/24.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/49/31.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/5/13.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/5/20.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/50/36.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/50/40.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/50/43.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/51/25.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/51/28.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/51/32.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/51/6.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/52/17.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/53/0.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/53/13.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/53/16.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/53/20.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/54/8.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/57/39.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/57/46.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/58/35.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/58/42.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/59/27.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/59/31.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/59/34.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/59/7.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/6/12.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/7/7.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/9/1.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/9/39.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulo_reconocimiento/recoleccion_datos/triste/9/46.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CSS/style-camara.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/style-camara.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CSS/style-manual.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/style-manual.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CSS/style-proposito.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/style-proposito.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/HTML/camara.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/camara.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/HTML/manual.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/manual.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/HTML/proposito.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/proposito.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JS/camara.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/JS/camara.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/Fondo camara.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/Fondo camara.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/Fondo principal.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/Fondo principal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/logo_no_background-removebg-preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/logo_no_background-removebg-preview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/opcion 2 demas.webp" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/opcion 2 demas.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/play-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/play-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulo_reconocimiento/etiquetado_datos.py" beforeDir="false" afterPath="$PROJECT_DIR$/modulo_reconocimiento/etiquetado_datos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulo_reconocimiento/reconocimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/modulo_reconocimiento/reconocimiento.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,11 +363,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JDan\PycharmProjects\TraductorLenguajeSenas" />
       <recent name="C:\Users\JDan\PycharmProjects\TraductorLenguajeSenas\web" />
       <recent name="C:\Users\JDan\PycharmProjects\TraductorLenguajeSenas\web\CSS" />
       <recent name="C:\Users\JDan\PycharmProjects\TraductorLenguajeSenas\web\HTML" />
       <recent name="C:\Users\JDan\PycharmProjects\TraductorLenguajeSenas\web\JS" />
-      <recent name="C:\Users\JDan\PycharmProjects\TraductorLenguajeSenas\modulo_reconocimiento\Logs" />
     </key>
   </component>
   <component name="RunManager" selected="Python.etiquetado_datos">
@@ -228,7 +518,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730261263597</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Refactorizacion de 'web' a 'docs'">
+      <option name="closed" value="true" />
+      <created>1730261827513</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730261827513</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +551,7 @@
     <MESSAGE value="peq" />
     <MESSAGE value="Clase StopAtAccuracy agregada. requirements.txt añadido" />
     <MESSAGE value="Estructura web añadida" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estructura web añadida" />
+    <MESSAGE value="Refactorizacion de 'web' a 'docs'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactorizacion de 'web' a 'docs'" />
   </component>
 </project>
