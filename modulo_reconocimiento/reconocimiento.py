@@ -33,6 +33,8 @@ def prob_viz(res, actions, input_frame, colors):
 
 # Función principal para procesar el flujo de datos de la cámara
 def main():
+    # Aquí debes colocar el índice del dispositivo que capturará la imagen
+    # Suele ser 0 si solo hay una cámara conectada
     camara = cv2.VideoCapture(1)
     camara.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
     camara.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)

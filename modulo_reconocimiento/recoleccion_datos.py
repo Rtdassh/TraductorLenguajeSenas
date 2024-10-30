@@ -6,13 +6,17 @@ import reconocimiento
 DIRECTORIO_DATOS = os.path.join('./recoleccion_datos')
 def main():
     creacion_directorio(DIRECTORIO_DATOS)
-    ingresar_gesto('b',50,60)
+
+    #Aquí puedes ingresar el nombre del gesto que desees entrenar
+    ingresar_gesto('ansioso',50,60)
 
 def creacion_directorio(nombre_directorio):
     if not os.path.exists(nombre_directorio):
         os.makedirs(nombre_directorio)
 
 def ingresar_gesto(nombre_signo, frames_muestra, cantidad_muestra):
+    #Aquí debes colocar el índice del dispositivo que capturará la imagen
+    #Suele ser 0 si solo hay una cámara conectada
     cap = cv2.VideoCapture(1)
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
