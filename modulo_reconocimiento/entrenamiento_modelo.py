@@ -1,6 +1,5 @@
 import tensorflow as tf
 import os
-import numpy as np
 import etiquetado_datos
 
 # Directorio de logs para TensorBoard

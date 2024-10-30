@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c92c2491-f32a-4ec4-adcd-fe727588e8bf" name="Changes" comment="entrenamiento_modelo.py añadido. Faltan pulir detalles en este modelo. Cambios en la estructura del resto de archivos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recoleccion_datos.py" beforeDir="false" afterPath="$PROJECT_DIR$/recoleccion_datos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reconocimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/reconocimiento.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +28,12 @@
     &quot;assignee&quot;: &quot;Rtdassh&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Rtdassh/HolisticModel.git&quot;,
-    &quot;accountId&quot;: &quot;e68b5d10-8d3e-43b7-9f2e-ad4fbca22ab2&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Rtdassh/TraductorLenguajeSenas.git",
+    "accountId": "e68b5d10-8d3e-43b7-9f2e-ad4fbca22ab2"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/reconocimiento.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -59,28 +57,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.HolisticModel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RecoleccionDatos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.entrenamiento_modelo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.etiquetado_datos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.recoleccion_datos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.reconocimiento.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/JDan/PycharmProjects/Sign-Language-Recognition--MediaPipe-DTW&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.HolisticModel.executor": "Run",
+    "Python.RecoleccionDatos.executor": "Run",
+    "Python.entrenamiento_modelo.executor": "Run",
+    "Python.etiquetado_datos.executor": "Run",
+    "Python.recoleccion_datos.executor": "Run",
+    "Python.reconocimiento.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/JDan/PycharmProjects/TraductorLenguajeSenas",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JDan\PycharmProjects\HolisticModel\Logs" />
       <recent name="C:\Users\JDan\PycharmProjects\HolisticModel" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.etiquetado_datos">
     <configuration name="etiquetado_datos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HolisticModel" />
       <option name="ENV_FILES" value="" />
